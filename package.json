@@ -1,0 +1,17 @@
+{
+  "name": "gitbook-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "honkit serve",
+    "pdf": "honkit pdf ./ ./mybook.pdf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "honkit": "^4.0.4"
+  }
+}
