@@ -1,5 +1,13 @@
 {
   "root": "./",
-  "title": "Honkit sample",
-  "language": "ja"
+  "title": "導入事例",
+  "language": "ja",
+  "styles": {
+    "website": "styles/styles.css"
+  },
+  "plugins": [
+    "theme-official",
+    "hints",
+    "include-codeblock"
+  ]
 }
