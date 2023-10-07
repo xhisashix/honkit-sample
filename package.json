@@ -1,17 +1,19 @@
 {
-  "name": "gitbook-cli",
+  "name": "honkit-sample",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "honkit serve",
     "pdf": "honkit pdf ./ ./mybook.pdf"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "honkit": "^4.0.4"
+    "honkit": "^5.1.1"
+  },
+  "dependencies": {
+    "@tschaub/gitbook-plugin-include-codeblock": "^3.1.2-beta.1",
+    "gitbook-plugin-hints": "^1.0.2"
   }
 }

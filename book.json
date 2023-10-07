@@ -6,8 +6,6 @@
     "website": "styles/styles.css"
   },
   "plugins": [
-    "theme-official",
-    "hints",
-    "include-codeblock"
+    "hints"
   ]
 }
